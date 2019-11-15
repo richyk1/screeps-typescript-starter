@@ -1,0 +1,21 @@
+{
+  "name": "screeps-typescript-starter",
+  "version": "1.0.0",
+  "description": "Screeps starter project for auto deploy ",
+  "main": "src/index.ts",
+  "repository": "https://github.com/michaljach/screeps-typescript-starter.git",
+  "author": "Michal Jach <michal.jach@grandparade.co.uk>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --environment DEST:sim"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.0",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-screeps": "^0.1.2",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "typescript": "^3.7.2"
+  }
+}
