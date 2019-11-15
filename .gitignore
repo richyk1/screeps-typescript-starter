@@ -63,3 +63,6 @@ typings/
 # screeps specific
 dist
 screeps.json
+
+# system
+.DS_Store
