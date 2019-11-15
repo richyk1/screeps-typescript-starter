@@ -1,7 +1,7 @@
-const loop = () => {
-  console.log("test");
+const loop = (): void => {
+  console.log('hello'); // eslint-disable-line
 };
 
 export default {
-  loop
+  loop,
 };
