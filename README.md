@@ -37,7 +37,7 @@ yarn start:sim or yarn start:pserver
 
 ### Stack
 
-- Typescript
+- Typescript (with [@types/screeps](https://www.npmjs.com/package/@types/screeps))
 - Prettier
 - ESLint
 - Rollup

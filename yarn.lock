@@ -45,6 +45,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/screeps@^2.5.5":
+  version "2.5.5"
+  resolved "https://nexus.dtc.prod.williamhill.plc:8443/repository/npm_pull/@types/screeps/-/screeps-2.5.5.tgz#2d28eb333c2443f759fa610bf7a372cd60072a5d"
+  integrity sha512-71t7VoZamMRF7Zfrnx2B2ZwioCv8jIY6g8UO4A/iJhmjEF+VoXcCGDVkybqyOvUbfDgWBgCMwOMzAajPUVc8lw==
+
 "@typescript-eslint/eslint-plugin@^2.7.0":
   version "2.7.0"
   resolved "https://nexus.dtc.prod.williamhill.plc:8443/repository/npm_pull/@typescript-eslint/eslint-plugin/-/eslint-plugin-2.7.0.tgz#dff176bdb73dfd7e2e43062452189bd1b9db6021"

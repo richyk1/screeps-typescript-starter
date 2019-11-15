@@ -12,6 +12,7 @@
     "lint": "eslint ./src --ext .js,.ts"
   },
   "devDependencies": {
+    "@types/screeps": "^2.5.5",
     "@typescript-eslint/eslint-plugin": "^2.7.0",
     "@typescript-eslint/parser": "^2.7.0",
     "eslint": "^6.6.0",
