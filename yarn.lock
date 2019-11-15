@@ -45,11 +45,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/screeps@^2.5.5":
-  version "2.5.5"
-  resolved "https://nexus.dtc.prod.williamhill.plc:8443/repository/npm_pull/@types/screeps/-/screeps-2.5.5.tgz#2d28eb333c2443f759fa610bf7a372cd60072a5d"
-  integrity sha512-71t7VoZamMRF7Zfrnx2B2ZwioCv8jIY6g8UO4A/iJhmjEF+VoXcCGDVkybqyOvUbfDgWBgCMwOMzAajPUVc8lw==
-
 "@typescript-eslint/eslint-plugin@^2.7.0":
   version "2.7.0"
   resolved "https://nexus.dtc.prod.williamhill.plc:8443/repository/npm_pull/@typescript-eslint/eslint-plugin/-/eslint-plugin-2.7.0.tgz#dff176bdb73dfd7e2e43062452189bd1b9db6021"
@@ -533,6 +528,11 @@ eslint-plugin-prettier@^3.1.1:
   integrity sha512-A+TZuHZ0KU0cnn56/9mfR7/KjUJ9QNVXUhwvRFSR7PGPe0zQR6PTkmyqg1AtUUEOzTqeRsUwyKFh0oVZKVCrtA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
+
+eslint-plugin-screeps@^2.0.0:
+  version "2.0.0"
+  resolved "https://nexus.dtc.prod.williamhill.plc:8443/repository/npm_pull/eslint-plugin-screeps/-/eslint-plugin-screeps-2.0.0.tgz#b011a68405c79be6f5ba69f5e72ae4d790540edd"
+  integrity sha512-6m+1dOwkRGPra70wEIBZkDiqy2sYGIfkEoklWNjUMn8izISD56wuOYEChaCoMiCc4DvUN3SzOzL2PJxD1qpMig==
 
 eslint-scope@^5.0.0:
   version "5.0.0"
