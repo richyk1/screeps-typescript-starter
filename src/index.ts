@@ -1,5 +1,5 @@
 const loop = (): void => {
-  console.log('hello'); // eslint-disable-line
+  console.log('hello'); 
 };
 
 export default {

@@ -1,14 +1,14 @@
 {
-  "name": "screeps-typescript-starter",
+  "name": "screeps-typescript-starter-local",
   "version": "1.0.0",
   "description": "Screeps starter project for auto deploy ",
   "main": "src/index.ts",
   "repository": "https://github.com/michaljach/screeps-typescript-starter.git",
-  "author": "Michal Jach <michal.jach@grandparade.co.uk>",
+  "author": "Richard Kasendu<kasendu@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:sim": "rollup -c --environment DEST:sim",
-    "start:sim": "rollup -cw --environment DEST:sim",
+    "build": "rollup -c",
+    "dev": "npm run lint && rollup -c",
     "lint": "eslint ./src --ext .js,.ts"
   },
   "devDependencies": {

@@ -12,27 +12,13 @@ You will need [Node](https://nodejs.org/en/) and [Yarn](https://yarnpkg.com/lang
 Install all dependencies.
 
 ```
-yarn install
+npm install
 ```
 
-Rename `screeps.sample.json` file to `screeps.json` and fill it with your credentials.
+Run continous building environment.
 
 ```
-{
-    "email": "email@dot.com",
-    "password": "password",
-    "protocol": "https",
-    "hostname": "screeps.com",
-    "port": 443,
-    "path": "/",
-    "branch": "auto"
-}
-```
-
-Run development server.
-
-```
-yarn start:sim or yarn start:pserver
+npm run dev
 ```
 
 ### Stack
@@ -41,10 +27,6 @@ yarn start:sim or yarn start:pserver
 - Prettier
 - ESLint
 - Rollup
-
-## Deployment
-
-When you are using `yarn start:[env]` the code is automatically building and deploying to Screeps server configured in `screeps.json` file.
 
 ## Contributing
 
